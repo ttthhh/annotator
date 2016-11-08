@@ -1,60 +1,130 @@
 <template name="tutorial">
     <div class="container">
         <div class="row instructions">
-            <p>We are a building a computer model that can help us understand how products work and how they relate to each other. In particular, we want to understand 2 things about each product:</p>
-            <ol>
-                <li><label>The unique <span class="key-purpose">problem</span></label> that the product is designed to solve: what could the user not do before with existing products?</li>
-                <li><label>Its <span class="key-mechanism">mechanism(s)</span></label>: What function(s) and/or component(s) of the product allow(s) it to solve that unique problem?</li>
-            </ol>
+            <p>We are a building a computer model that can help us understand how products work and what problems they solve. </p>
+
             <p>Your task is to read a product description and do two things:</p>
+			<h2> Selecting keywords/tags </h2>
+
             <ol>
+
                 <li>
-                    Summarize the <span class="key-purpose">problem</span> and <span class="key-mechanism">mechanism(s)</span> of the product.
+
+                    <b>Select words </b> that tell us about the <span class="key-purpose"> purposes </span> and <span class="key-purpose"> benefits  </span> of the product.
+					<ul>
+					<li> What is the product <b>good for</b>? What value or <b>benefit</b> does it create? <b>Who</b> uses it and <b>why</b>?  </li>
+					</ul>
                 </li>
-                <li>
-                    Annotate the description to mark the individual words that best signal the <span class="key-purpose">problem</span> and/or <span class="key-mechanism">mechanism(s)</span> of the product. Mark a word by clicking on it and selecting the appropriate keyword type (e.g., problem or mechanism). You may mark as many words as you think will help.
-                </li>
+				<img src="/purpose.jpg" width="128" height="128">
+
+
+				<li>
+                    <b>Select words </b> that tell us about the <span class="key-mechanism"> strucuture </span> and <span class="key-mechanism"> mechanisms </span> of the product. [Tom: What about PROPERTIES? "tiny"? "elastic"?]
+					<ul>
+					<li> How does the product <b>work</b>? What is the product <b>made of</b>?  What are its <b>key features/components</b>?</li>
+					</ul>
+				</li>
+				<img src="/mechanism.jpg" width="256" height="128">
+
             </ol>
+
+			<b>See example below!</b>
+
+			<h2> Identifying "combination products"</h2>
+				It's easy to think of the <span class="key-mechanism">structure</span> and <span class="key-mechanism">mechanisms</span> of many products as combinations of things: [Tom: What about PROPERTIES? "tiny" + "knife"]
+				<ul>
+				<li> A <span class="key-mechanism">bracelet</span> with <span class="key-mechanism">GPS</span> to track children -- <b> This is a combination of a <span class="key-mechanism">bracelet</span> and <span class="key-mechanism">GPS</span>! </b> </li>
+				<li> A <span class="key-mechanism">pillow</span> with <span class="key-mechanism">sensors</span> to track sleep patterns -- <b> This is a combination of a <span class="key-mechanism">pillow</span> and <span class="key-mechanism">sensors</span>! </b> </li>
+				<li> <b> Many more examples!</b></li>
+				</ul>
+				
+				Your task is to tell us what products are <b><u>clear</u> combinations</b> of <span class="key-mechanism">mechanisms</span> -- see examples below!
+				<br>
+				<img src="/combo.jpg" width="256" height="170">
+						
         </div>
         <div class="divider">
         </div>
         <div class="row doc-data">
             <div class="col-md-12 col-xs-12">
                 <div class="row tutorial-example">
-                    <h4>Example</h4>
-                    <p>Here is an example of what we would like you to do.</p>
-                    <p>On the left is a product description, which we have already annotated. Problem keywords are marked like <span class="key-purpose">this</span> and mechanism keywords are marked like <span class="key-mechanism">this</span>.</p>
-                    <p>On the right are two textboxes for summarizing the product's <span class="key-purpose">problem</span> and <span class="key-mechanism">mechanism(s)</span>. We have also filled these out here so you can see examples of what we mean by <span class="key-purpose">problem</span> and <span class="key-mechanism">mechanism(s)</span>.</p>
+                    <h2>Examples</h2>
+					<p>Here are some quick examples of what we would like you to do. <b>Please follow them carefully to make sure you are rewarded for this task!</b></p>
+
+					<h3> 1. Selecting keywords/tags </h3>
+
+					<label>Selecting words reflecting <span class="key-purpose">purposes</span> and <span class="key-purpose">benefits</span></label>
+					<p>We have marked some example words that talk about what the product is <b>good for</b>, <b>who</b> uses it and <b>why</b></p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-xs-6 doc">
-                        <p>I want to make a suntime.</p>
-                        <p>There is no device now on the market that <span class="key-purpose">records</span> the <span class="key-purpose">intensity</span> and <span class="key-purpose">time</span> of day that sunshine falls on any selected location.</p>
-                        <p>Suntime does this.</p>
-                        <p>There are two different solar meters now for sale on Amazon that to attempt to provide a more limited amount of this information.</p>
-                        <p>One is called Luster Leaf 1875 Rapitest Suncalc Sunlight Calculator and one is called Plumstone 200 SunStick Starter Pack.</p>
-                        <p>These are both shown on the Amazon website.</p>
-                        <p>The reviews on each make clear their limitations.</p>
-                        <p>Suntime has advantages over each of these because it <span class="key-purpose">records</span> the <span class="key-purpose">intensity</span> of <span class="key-purpose">sun exposure with</span> the <span class="key-purpose">time</span> of day of that exposure, provides a <span class="key-purpose">permanent</span> paper record and operates with <span class="key-purpose">no batteries</span> or <span class="key-purpose">electronics</span>.</p>
-                        <p>Suntime is composed of 3 items:</p>
-                        <p>A 12 hour <span class="key-mechanism">wind up timer</span> with a <span class="key-mechanism">rotating shaft</span> that unwinds clockwise with a (6” diameter?) plastic disc fixed to its upper surface.</p>
-                        <p>The timer shaft extends through the disc surface and is fitted with an engagement collar.</p>
-                        <p>A <span class="key-mechanism">recording annular disc</span> of <span class="key-mechanism">photosensitive (cyanotype) paper</span>, replaced after each use.</p>
-                        <p>This is adhered to the timer disc and centered on the shaft on the scribed location.</p>
-                        <p>The paper has a <span class="key-mechanism">printed clock</span> on its surface calibrated to the rotation time of the timer.</p>
-                        <p>An opaque plastic rotating disc (6” diameter by 1/8 thick?), with a narrow open window or slit (½” by 1/16” wide?) located on a radial line near the outer edge.</p>
-                        <p>The disc has a centrally located raised socket that fits loosely on the timer shaft engagement collar.</p>
-                    </div>
-                    <div class="col-md-6 col-xs-6 summary">
-                        <label>What is the unique <span class="key-purpose">problem</span> that this product solves?</label>
-                        <textarea class="form-control" id="summ-purp" rows="3" placeholder="This product solves the main problem of how to...">The product solves the problem of how to record intensity and time of sun exposure in a permanent way without batteries.</textarea>
-                        <br/>
-                        <label>What is/are the <span class="key-mechanism">mechanism(s)</span> the product uses to solve its main problem?</label>
-                        <textarea class="form-control" id="summ-mech" rows="5" placeholder="What are the main parts of the product? What happens to the parts, and how do they help to solve the main problem?">The photosensitive paper records exposure intensity in a permanent way. The paper is placed on a disc, which sits on a shaft. The shaft rotates the disc as it unwinds in 1-hour increments for 12 hours. The paper also has a printed clock on it that indicates the shaft’s current position in time.</textarea>
+                        <h3>The AstroPillow</h3>
+						<ul>
+						<li>Built in blind fold with led lights and sensors</li>
+						<li>Alarm includes led lighting, vibrations and built in headphones for <span class="key-purpose">comfort</span>.</li>
+						<li><span class="key-purpose">Wake up comfortably</span> with built in alarm clock</li>
+						<li>App that connects with Bluetooth to <span class="key-purpose">display sleep patterns</span>, pick music and alarm</li>
+						<li>Full <span class="key-purpose">support for any kind of sleeper </span></li>
+						<li><span class="key-purpose">Track sleep patterns</span></li>
+						</ul>
                     </div>
                 </div>
+
+				<br>
+				<div class="row tutorial-example">
+					<label>Selecting words reflecting <span class="key-mechanism">strucuture</span> and <span class="key-mechanism">mechanisms</span></label>
+					<p>We have marked some example words that talk about how the product <b>works</b>, its <b>key features</b> and what it is <b>made of</b></p>
+                </div>
+				<div class="row">
+                    <div class="col-md-6 col-xs-6 doc">
+                        <h3>The Astro<span class="key-mechanism">Pillow</span></h3>
+						<ul>
+						<li>Built in <span class="key-mechanism">blind fold</span> with <span class="key-mechanism">led lights</span> and <span class="key-mechanism">sensors</span></li>
+						<li><span class="key-mechanism">Alarm</span> includes <span class="key-mechanism">led lighting</span>, <span class="key-mechanism">vibrations</span> and built in <span class="key-mechanism">headphones</span> for comfort.</li>
+						<li>Wake up comfortably with built in <span class="key-mechanism">alarm clock </span></li>
+						<li><span class="key-mechanism">App</span> that connects with <span class="key-mechanism">Bluetooth</span> to display sleep patterns, pick <span class="key-mechanism">music</span> and <span class="key-mechanism">alarm</span></li>
+						<li>Full support for any kind of sleeper</li>
+						<li>Track sleep patterns</li>
+						</ul>
+                    </div>
+                </div>
+				
+				<br>
+                    
+				<div class="row tutorial-example">
+                    <h4><b>Bad</b> Example</h4>
+                    <p>Here is an example of <b>wrong</b> word selection!</p>
+					<div class="col-md-6 col-xs-6 doc">
+						A wristband with GPS is used to <strike><span class="key-mechanism">track your child</span>.</strike>
+                    </div>
+					
+                </div>
+					<i>Tracking your child</i> is the purpose/benefit of the product -- and <b> not </b> how it works!
+				
+				<div class="row tutorial-example">
+					<div class="col-md-6 col-xs-6 doc">
+						A <strike><span class="key-purpose">wristband</span></strike> with <strike><span class="key-purpose">GPS</span></strike> is used to track your child.
+                    </div>
+					
+                </div>
+					<i>Wristband</i> and <i>GPS</i> are things the product is made of / key features -- and <b> not </b> the purpose of product!
+				
+				<div class="row tutorial-example">
+					<h3> 2. Identifying "combination products"</h3>
+					<label>Identify products that are <b>clear</b> combinations of <span class="key-mechanism">mechanisms</span></label>.
+					<li>A <span class="key-mechanism"> pillow</span> with built-in <span class="key-mechanism">led lights</span> and <span class="key-mechanism">sensors</span> -- <b> COMBINATION</b> of <span class="key-mechanism"> pillow</span>,<span class="key-mechanism"> led lights</span>, <span class="key-mechanism"> sensors</span>!    </li>
+					<li>A <span class="key-mechanism"> dog collar</span> that uses <span class="key-mechanism">GPS</span> to track your dog-- <b> COMBINATION</b> of <span class="key-mechanism"> dog collar</span>,<span class="key-mechanism"> GPS</span>!    </li>
+					<li> <span class="key-mechanism">Windows</span> with <span class="key-mechanism">motion sensors</span> to detect home intrusion-- <b> COMBINATION</b> of <span class="key-mechanism"> windows</span>,<span class="key-mechanism"> motion sensors</span>!    </li>
+
+
+
+				</div>
+						
+
+
                 <div class="divider">
                 </div>
+
                 <div class="row tutorial-try">
                     <h4>Annotation interface</h4>
                     <p>Here is an interactive example of the annotation interface. In the sentence below, you can click on each word to pull up an annotation dropdown menu. Use this menu to mark the word as <span class="key-purpose">problem</span>, <span class="key-mechanism">mechanism</span>, or to unmark it.</p>
